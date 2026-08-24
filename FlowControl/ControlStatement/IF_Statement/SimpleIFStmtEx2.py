@@ -1,0 +1,8 @@
+#Program for accepting a number and decide whether it is +ve, -ve or 0
+n=float(input("Enter any number:"))
+if n>0:
+    print("{} is +VE".format(n))
+if n<0:
+    print("{} is -VE".format(n))
+if n==0:
+    print("{} is ZERO".format(n))
